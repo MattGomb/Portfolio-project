@@ -75,7 +75,17 @@ header {
   .div4 { grid-area: 4 / 1 / 5 / 2; }
   .div5 { grid-area: 5 / 1 / 6 / 2; }
 
+.box2 {
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+}
+
 .div1-title {
+  width: 295px;
+  height: 36px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
@@ -84,7 +94,7 @@ header {
   color: #172B4D;
 }
 
-.div1-img1 {
+.div1-canopy {
   display: flex;
 flex-direction: row;
 align-items: center;
@@ -93,4 +103,15 @@ gap: 12px;
 
 width: 236px;
 height: 32px;
+}
+
+.box3 {
+width: 295px;
+height: 76px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+color: #344563;
 }
