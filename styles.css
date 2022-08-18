@@ -127,3 +127,29 @@ gap: 12px;
   width: 203px;
   height: 24px;
 }
+
+.box2d {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 124px;
+  height: 48px;
+  width: 100px;
+  height: 24px;
+}
+
+.box2d-button {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24x;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396DF2;
+  border: 1px solid rgba(96, 112, 255, 1)
+}
