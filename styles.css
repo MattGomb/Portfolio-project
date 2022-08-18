@@ -105,8 +105,18 @@ header {
   justify-self: center;
 }
 
-.div2 {
-height: 596px;
+.about-me {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+ 
+  margin: 114px 0 0 0;
+
+  gap: 12px;
+  background: #FFFFFF;
+  border: 1px solid #DFE1E6;
+  border-radius: 16px;
+  justify-self: center;
 }
 .div1-bgr {
   display: flex;
@@ -312,7 +322,6 @@ gap: 12px;
   background: #2230d2
 }
 
-
 .about-me {
   display: flex;
   flex-direction: column;
@@ -320,6 +329,25 @@ gap: 12px;
   padding: 114px 24px;
   gap: 24px;
   border-bottom-right-radius: 100px;
+}
+
+.about-p {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+color: #344563;
+padding-top: 12px;
+}
+
+.h3-text {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #7F8CFF;
 }
 
 .skills {
