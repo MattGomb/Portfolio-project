@@ -75,7 +75,7 @@ header {
   .div4 { grid-area: 4 / 1 / 5 / 2; }
   .div5 { grid-area: 5 / 1 / 6 / 2; }
 
-.box2 {
+.box2a {
   display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -83,7 +83,7 @@ padding: 0px;
 gap: 12px;
 }
 
-.div1-title {
+.box2a-title {
   width: 295px;
   height: 36px;
   font-family: 'Poppins';
@@ -105,7 +105,7 @@ width: 236px;
 height: 32px;
 }
 
-.box3 {
+.box2b {
 width: 295px;
 height: 76px;
 font-family: 'Poppins';
@@ -114,4 +114,16 @@ font-weight: 400;
 font-size: 15px;
 line-height: 24px;
 color: #344563;
+gap: 12px;
+}
+
+.box2c-img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 203px;
+  height: 24px;
 }
