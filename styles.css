@@ -225,9 +225,6 @@ header {
   line-height: 24px;
   color: #344563;
   gap: 12px;
-}
-
-.box2b {
   margin: 0 24px 0 0;
 }
 
@@ -404,34 +401,33 @@ span {
 }
 
 h3 {
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-display: flex;
-flex-direction: column;
-text-align: center;
-color: #FFFFFF;
-margin-top: 0;
-padding-top: 103px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+  margin-top: 0;
+  padding-top: 103px;
 }
 
 .p-contact-me {
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 28px;
-text-align: center;
-color: #EBEBFF;
-margin-top: 12px;
-text-align: justify;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+  margin-top: 12px;
+  text-align: justify;
 }
 
 .contact-me-form {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items:stretch ;
+  align-items: stretch;
   border-radius: 5px;
 }
 
@@ -439,15 +435,15 @@ text-align: justify;
   margin-bottom: 20px;
   padding: 16px 38px 15px 16px;
   font-style: normal;
-font-weight: 400;
-font-size: 17px;
-line-height: 20px;
-display: flex;
-align-items: center;
-color: #172B4D;
-border: 1px solid #CFD8DC;
-border-radius: 8px;
-margin-top: 67px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  margin-top: 67px;
 }
 
 .form-email {
@@ -459,8 +455,8 @@ margin-top: 67px;
   line-height: 20px;
   display: flex;
   align-items: center;
-  color: #172B4D;
-  border: 1px solid #CFD8DC;
+  color: #172b4d;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
 }
 
@@ -473,9 +469,9 @@ margin-top: 67px;
   line-height: 24px;
   display: flex;
   align-items: center;
-  color: #172B4D;
-  border: 1px solid #CFD8DC;
-  border-radius: 8px;;
+  color: #172b4d;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
   height: 140px;
 }
 
