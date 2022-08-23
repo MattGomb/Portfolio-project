@@ -40,6 +40,13 @@ To get a local copy up and running follow these simple example steps:
 - Twitter: [@MtysGombos1](https://twitter.com/MtysGombos1)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/gombos-mátyás-28139771/)
 
+👤 **Author2**
+
+- GitHub: [@githubhandle](https://github.com/asdt560)
+- Twitter: [@twitterhandle](https://twitter.com/JustoRago)
+- LinkedIn: [LinkedIn](www.linkedin.com/in/justo-rago-0714b5208)
+
+
 
 ## Show your support
 
