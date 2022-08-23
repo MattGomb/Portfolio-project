@@ -8,7 +8,6 @@ body {
   background-image: url(images/background.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  padding: 0 24px;
   flex-wrap: wrap;
   padding-bottom: 136px;
 }
@@ -228,8 +227,7 @@ header {
   gap: 12px;
 }
 
-.box2b,
-p {
+.box2b {
   margin: 0 24px 0 0;
 }
 
@@ -319,6 +317,7 @@ p {
   line-height: 24px;
   color: #344563;
   padding-top: 12px;
+  margin-right: 24px;
 }
 
 .h3-text {
@@ -394,17 +393,17 @@ span {
   border-bottom: 1px solid  #dfe1e6;
 }
 
-.contact-me {
-  background-image: url(images/Contactme-bg.png);
+#contact-me {
+  background-image: url(images/contactme-shapes.png), url(images/Contactme-bg.png);
   background-color: white;
-  background-size: 100%;
+  background-size: 55%, 100%;
   background-repeat: no-repeat;
+  background-position: right;
   padding: 0 24px;
   flex-wrap: wrap;
 }
 
 h3 {
-  font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
 font-size: 40px;
@@ -418,12 +417,69 @@ padding-top: 103px;
 }
 
 .p-contact-me {
-  font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
 line-height: 28px;
 text-align: center;
 color: #EBEBFF;
-margin: 12px 24px 0 24px;
+margin-top: 12px;
+text-align: justify;
+}
+
+.contact-me-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items:stretch ;
+  border-radius: 5px;
+}
+
+.form-name {
+  margin-bottom: 20px;
+  padding: 16px 38px 15px 16px;
+  font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+display: flex;
+align-items: center;
+color: #172B4D;
+border: 1px solid #CFD8DC;
+border-radius: 8px;
+margin-top: 67px;
+}
+
+.form-email {
+  margin-bottom: 18px;
+  padding: 16px 38px 15px 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #172B4D;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+}
+
+.form-msg {
+  margin-bottom: 22px;
+  padding: 16px 38px 15px 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #172B4D;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;;
+  height: 140px;
+}
+
+#contact-button {
+  width: max-content;
+  margin-bottom: 45px;
 }
