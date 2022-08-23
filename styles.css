@@ -205,9 +205,8 @@ header {
 }
 
 .list-langs1 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  float: left;
+  list-style: none;
   padding: 4px 12px;
   background: #ebebff;
   border-radius: 8px;
