@@ -4,12 +4,10 @@ body {
 }
 
 .main-body {
-  background-color: #fff;
   background-image: url(images/background.png);
   background-size: 100%;
   background-repeat: no-repeat;
   flex-wrap: wrap;
-  padding-bottom: 136px;
 }
 
 .h1-text {
@@ -48,6 +46,7 @@ header {
   display: flex;
   flex-direction: column;
   background-color: #fff;
+  border-bottom-left-radius: 80px;
 }
 
 .hdr {
@@ -62,6 +61,7 @@ header {
   justify-content: flex-start;
   gap: 20px;
   padding-left: 24px;
+  margin: 16px 0 136px 0;
 }
 
 .parent {
