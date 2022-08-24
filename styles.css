@@ -11,6 +11,29 @@ body {
   flex-wrap: wrap;
 }
 
+#div1-bgr {
+  background-image: url(images/div1-bgr.png);
+}
+
+#div2-bgr {
+  background-image: url(images/div2-bgr.png);
+}
+
+#div3-bgr {
+  background-image: url(images/div3-bgr.png);
+}
+
+#div4-bgr {
+  background-image: url(images/div4-bgr.png);
+}
+
+#div1-bgr, #div2-bgr, #div3-bgr, #div4-bgr {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 220px;
+}
+
 .bar-desktop {
   display: none;
 }
@@ -125,7 +148,6 @@ header {
 }
 
 .div1-bgr {
-  display: flex;
   width: 100%;
 }
 
@@ -486,6 +508,10 @@ h4 {
   margin-bottom: 32px;
 }
 
+ul:nth-child(4) {
+  padding-left: 0;
+}
+
 /* ------------ DESKTOP scaling ------------ */
 
 @media screen and (min-width: 768px) {
@@ -496,6 +522,25 @@ h4 {
 
   .main-body {
     background-image: url(images/desktop-header-bg.png);
+  }
+
+  #div1-bgr {
+    background-image: url(images/desktop-div1-bg.png);
+  }
+  #div2-bgr {
+    background-image: url(images/desktop-div2-bg.png);
+  }
+  #div3-bgr {
+    background-image: url(images/desktop-div3-bg.png);
+  }
+  #div4-bgr {
+    background-image: url(images/desktop-div4-bg.png);
+  }
+
+  #div1-bgr, #div2-bgr, #div3-bgr, #div4-bgr {
+    background-size: contain;
+    height: auto;
+    width: 50%;
   }
 
   .bar {
@@ -543,7 +588,6 @@ h4 {
     font-size: 48px;
     line-height: 60px;
     letter-spacing: 0.37px;
-    height: 122px;
   }
 
   .par1 {
@@ -551,7 +595,6 @@ h4 {
     padding: 12px 0 12px 0;
     font-size: 20px;
     line-height: 28px;
-    height: 98px;
   }
 
   .h2-text {
@@ -563,4 +606,70 @@ h4 {
     margin: 0 1010px 255px 260px;
     padding: 0;
   }
+
+  .parent {
+    grid-row-gap: 142px;
+  }
+
+  .div1 {
+    margin-top: 142px;
+    flex-direction: row;
+    padding: 0;
+    gap: 22px;
+  }
+
+  .div1, .div2, .div3, .div4 {
+    flex-direction: row;
+    padding: 0;
+    gap: 22px;
+  }
+
+  .div1-bgr{
+    background-image: url(images/desktop-div1-bg.png);
+    max-width: 593.25px;
+  }
+
+  .box1, .box2 {
+    width: 50%;
+    flex-basis: auto;
+  }
+
+  .div2 .box2, .div4 .box2 {
+    order: -1;
+    margin: 24px auto 27px 22px;
+    width: 50%;
+    max-width: 593.25px;
+  }
+
+  .div2 .box1, .div4 .box1 {
+    margin: 24px 24px 24px auto;
+  }
+
+  .box1 {
+    margin: 24px auto 24px 24px;
+    min-width: 544px;
+    min-height: 448px;
+  }
+
+  .box2 {
+    margin: 24px 22px 27px auto;
+  }
+
+  p {
+    padding-right: 24px;
+  }
+
+  .about-me .top .ulist {
+    padding-left: 0;
+  }
+
+  .top {
+    max-width: 50%;
+  }
+
+  .about-me {
+    display: flex;
+    flex-direction: row;
+  }
+
 }
