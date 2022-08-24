@@ -8,7 +8,6 @@ body {
   background-image: url(images/background.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  padding: 0 24px;
   flex-wrap: wrap;
   padding-bottom: 136px;
 }
@@ -111,7 +110,6 @@ header {
   margin: 114px 0 0 0;
   background: #fff;
   border: 1px solid #dfe1e6;
-  border-radius: 16px;
   justify-self: center;
   align-items: center;
   padding: 114px 24px;
@@ -224,10 +222,6 @@ header {
   line-height: 24px;
   color: #344563;
   gap: 12px;
-}
-
-.box2b,
-p {
   margin: 0 24px 0 0;
 }
 
@@ -317,6 +311,7 @@ p {
   line-height: 24px;
   color: #344563;
   padding-top: 12px;
+  margin-right: 24px;
 }
 
 .h3-text {
@@ -325,6 +320,8 @@ p {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
+  margin: 0;
+  padding: 0;
 }
 
 .skills {
@@ -390,4 +387,94 @@ span {
 .separator {
   border: none;
   border-bottom: 1px solid  #dfe1e6;
+}
+
+.contact-me {
+  grid-area: 5 / 1 / 6 / 2;
+  background-image: url(images/contactme-shapes.png), url(images/Contactme-bg.png);
+  background-color: white;
+  background-size: contain, cover;
+  background-repeat: no-repeat, no-repeat;
+  background-position: right, left top;
+  padding: 10px 24px 0 24px;
+  flex-wrap: wrap;
+}
+
+h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 12px;
+  padding-top: 103px;
+}
+
+.p-contact-me {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+  text-align: justify;
+}
+
+.contact-me-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.form-name {
+  margin-bottom: 20px;
+  padding: 16px 38px 15px 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  margin-top: 45px;
+}
+
+.form-email {
+  margin-bottom: 18px;
+  padding: 16px 38px 15px 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+}
+
+.form-msg {
+  margin-bottom: 22px;
+  padding: 16px 38px 15px 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  height: 140px;
+}
+
+#contact-button {
+  width: max-content;
+  margin-bottom: 32px;
 }
