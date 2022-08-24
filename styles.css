@@ -19,7 +19,7 @@ body {
   display: flex;
   align-items: center;
   color: #172b4d;
-  padding-top: 102px;
+  padding: 102px 24px 0 24px;
   margin: 0;
 }
 
@@ -28,7 +28,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  padding-top: 12px;
+  padding: 12px 24px 0 24px;
   color: #7f8cff;
   margin: 0;
 }
@@ -39,7 +39,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  padding-top: 12px;
+  padding: 12px 24px 0 24px;
   margin: 0;
   text-align: justify;
 }
@@ -61,7 +61,7 @@ header {
   list-style: none;
   justify-content: flex-start;
   gap: 20px;
-  padding: 0;
+  padding-left: 24px;
 }
 
 .parent {
