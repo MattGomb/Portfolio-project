@@ -5,9 +5,14 @@ body {
 
 .main-body {
   background-image: url(images/background.png);
-  background-size: 100%;
+  background-size:contain;
   background-repeat: no-repeat;
+  background-position: right;
   flex-wrap: wrap;
+}
+
+.bar-desktop {
+  display: none;
 }
 
 .h1-text {
@@ -17,7 +22,7 @@ body {
   display: flex;
   align-items: center;
   color: #172b4d;
-  padding: 102px 24px 0 24px;
+  padding: 114px 24px 0 24px;
   margin: 0;
 }
 
@@ -52,7 +57,9 @@ header {
 .hdr {
   display: flex;
   justify-content: space-between;
-  margin: 14px 24px;
+  padding: 14px 24px;
+  margin-top: 44px;
+
 }
 
 .ulist {
@@ -477,4 +484,79 @@ h4 {
 #contact-button {
   width: max-content;
   margin-bottom: 32px;
+}
+
+/* ------------ DESKTOP scaling ------------ */
+
+@media screen and (min-width: 768px) {
+
+  header {
+    border-bottom-left-radius: 130px;
+  }
+
+  .bar {
+    display: none;
+  }
+
+  .logo {
+    padding: 10px 12px;
+    display: flex;
+    align-items: center;
+    text-align: center
+  }
+
+  .bar-desktop {
+    display: block;
+    margin: 0 142px auto auto;
+  }
+
+  .bar-desktop-list {
+    display: flex;
+
+    list-style: none;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+
+  .bdl-el {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    padding: 10px 12px;
+  }
+
+  .hdr {
+    padding-top: 15px;
+    padding-left: 133px;
+    margin-top: 0px;
+  }
+
+  .h1-text {
+    margin: 288px 260px 0 260px;
+    padding: 0;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+    height: 122px;
+  }
+
+  .par1 {
+    margin: 0 260px 0 260px;
+    padding: 12px 0 12px 0;
+    font-size: 20px;
+    line-height: 28px;
+    height: 98px;
+  }
+
+  .h2-text {
+    margin: 0 260px 14px 260px;
+    padding: 0;
+  }
+
+  .ulist {
+    margin: 0 1010px 255px 260px;
+    padding: 0;
+  }
 }
