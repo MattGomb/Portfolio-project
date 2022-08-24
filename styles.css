@@ -1,3 +1,7 @@
+* {
+  outline: auto;
+}
+
 body {
   background: #f7f7f9;
   font-family: 'Poppins', Arial, sans-serif;
@@ -111,7 +115,6 @@ header {
   margin: 114px 0 0 0;
   background: #fff;
   border: 1px solid #dfe1e6;
-  border-radius: 16px;
   justify-self: center;
   align-items: center;
   padding: 114px 24px;
@@ -323,6 +326,9 @@ header {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
+  margin: 0;
+  padding: 0;
+
 }
 
 .skills {
@@ -390,26 +396,27 @@ span {
   border-bottom: 1px solid  #dfe1e6;
 }
 
-#contact-me {
+.contact-me {
   background-image: url(images/contactme-shapes.png), url(images/Contactme-bg.png);
   background-color: white;
-  background-size: 55%, 100%;
-  background-repeat: no-repeat;
-  background-position: right;
-  padding: 0 24px;
+  background-size: contain, cover;
+  background-repeat: no-repeat, no-repeat;
+  background-position: right, left top;
+  padding: 10px 24px 0 24px;
   flex-wrap: wrap;
 }
 
-h3 {
+h4 {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   display: flex;
   flex-direction: column;
-  text-align: center;
+  align-items: center;
   color: #fff;
   margin-top: 0;
+  margin-bottom: 12px;
   padding-top: 103px;
 }
 
@@ -419,7 +426,6 @@ h3 {
   font-size: 20px;
   line-height: 28px;
   color: #ebebff;
-  margin-top: 12px;
   text-align: justify;
 }
 
@@ -428,7 +434,6 @@ h3 {
   flex-direction: column;
   justify-content: space-between;
   align-items: stretch;
-  border-radius: 5px;
 }
 
 .form-name {
@@ -443,7 +448,7 @@ h3 {
   color: #172b4d;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
-  margin-top: 67px;
+  margin-top: 45px;
 }
 
 .form-email {
@@ -477,5 +482,5 @@ h3 {
 
 #contact-button {
   width: max-content;
-  margin-bottom: 45px;
+  margin-bottom: 32px;
 }
