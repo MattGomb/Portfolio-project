@@ -1,7 +1,3 @@
-* {
-  outline: auto;
-}
-
 body {
   background: #f7f7f9;
   font-family: 'Poppins', Arial, sans-serif;
@@ -412,7 +408,7 @@ h4 {
   line-height: 52px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: center;
   color: #fff;
   margin-top: 0;
   margin-bottom: 12px;
