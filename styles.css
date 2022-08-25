@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background: #f7f7f9;
   font-family: 'Poppins', Arial, sans-serif;
@@ -542,6 +547,7 @@ ul:nth-child(4) {
     padding-top: 15px;
     padding-left: 133px;
     margin-top: 0;
+    top: 0;
   }
 
   header {
