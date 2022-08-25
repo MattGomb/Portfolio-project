@@ -664,12 +664,27 @@ ul:nth-child(4) {
   }
 
   .top {
-    max-width: 50%;
+    width: 50%;
   }
 
   .about-me {
     display: flex;
     flex-direction: row;
+    padding-top: 142px;
+    padding-left: 142px;
+    padding-right: 142px;
+    gap: 25px;
+
+
+  }
+
+  .skills {
+  
+  }
+
+  #ulist-bottom {
+    margin: 0;
+
   }
 
 }
