@@ -535,6 +535,11 @@ ul:nth-child(4) {
 /* ------------ DESKTOP scaling ------------ */
 
 @media screen and (min-width: 768px) {
+  .hdr {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+  }
   header {
     border-bottom-left-radius: 130px;
   }
@@ -763,5 +768,7 @@ ul:nth-child(4) {
   .div3:hover,
   .div4:hover {
     filter: drop-shadow(0 0 16px rgba(64, 83, 252, 0.24));
+    border: 2px solid #A7AEFF;
+    border-radius: 24px;
   }
 }
