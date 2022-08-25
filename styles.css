@@ -5,10 +5,14 @@ body {
 
 .main-body {
   background-image: url("images/background.png");
-  background-size:contain;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
   flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-bottom-left-radius: 80px;
 }
 
 #div1-bgr {
@@ -27,7 +31,10 @@ body {
   background-image: url(images/div4-bgr.png);
 }
 
-#div1-bgr, #div2-bgr, #div3-bgr, #div4-bgr {
+#div1-bgr,
+#div2-bgr,
+#div3-bgr,
+#div4-bgr {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -70,16 +77,9 @@ body {
   text-align: justify;
 }
 
-.main-body {
-  display: flex;
-  flex-direction: column;
-  background-color: #fff;
-  border-bottom-left-radius: 80px;
-}
-
 .hdr {
   padding: 62px 24px 0 24px;
-  background-color: #ffffff;
+  background-color: #fff;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
@@ -89,17 +89,16 @@ body {
 
 .logo {
   font-weight: 700;
-font-size: 18px;
-line-height: 20px;
-display: flex;
-align-items: center;
-text-align: center;
-color: #6070FF;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6070ff;
 }
 
 .bar {
   text-align: right;
-  
 }
 
 .ulist {
@@ -536,11 +535,6 @@ ul:nth-child(4) {
 /* ------------ DESKTOP scaling ------------ */
 
 @media screen and (min-width: 768px) {
-
-  .hdr {
-    position: sticky;
-  }
-
   header {
     border-bottom-left-radius: 130px;
   }
@@ -552,21 +546,28 @@ ul:nth-child(4) {
   #div1-bgr {
     background-image: url(images/desktop-div1-bg.png);
   }
+
   #div2-bgr {
     background-image: url(images/desktop-div2-bg.png);
   }
+
   #div3-bgr {
     background-image: url(images/desktop-div3-bg.png);
   }
+
   #div4-bgr {
     background-image: url(images/desktop-div4-bg.png);
   }
 
-  .par, .h1 {
+  .par,
+  .h1 {
     width: 100%;
   }
 
-  #div1-bgr, #div2-bgr, #div3-bgr, #div4-bgr {
+  #div1-bgr,
+  #div2-bgr,
+  #div3-bgr,
+  #div4-bgr {
     background-size: contain;
     height: auto;
     width: 50%;
@@ -584,7 +585,6 @@ ul:nth-child(4) {
 
   .bar-desktop-list {
     display: flex;
-
     list-style: none;
     justify-content: flex-start;
     gap: 10px;
@@ -602,7 +602,7 @@ ul:nth-child(4) {
   .hdr {
     padding-top: 15px;
     padding-left: 133px;
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   .h1-text {
@@ -641,31 +641,25 @@ ul:nth-child(4) {
     gap: 22px;
   }
 
-  .div1, .div2, .div3, .div4 {
+  .div1,
+  .div2,
+  .div3,
+  .div4 {
     flex-direction: row;
     padding: 0;
     gap: 22px;
   }
 
-  .div1-bgr{
+  .div1-bgr {
     background-image: url(images/desktop-div1-bg.png);
     max-width: 593.25px;
   }
 
-  .box1, .box2 {
+  .box1,
+  .box2 {
     width: 50%;
     flex-basis: auto;
     max-width: 556px;
-  }
-
-  .div2 .box2, .div4 .box2 {
-    margin: 24px auto 27px 22px;
-    width: 50%;
-    max-width: 556px;
-  }
-
-  .div2 .box1, .div4 .box1 {
-    margin: 24px 24px 24px auto;
   }
 
   .box1 {
@@ -676,6 +670,18 @@ ul:nth-child(4) {
 
   .box2 {
     margin: 24px 22px 27px auto;
+  }
+
+  .div2 .box2,
+  .div4 .box2 {
+    margin: 24px auto 27px 22px;
+    width: 50%;
+    max-width: 556px;
+  }
+
+  .div2 .box1,
+  .div4 .box1 {
+    margin: 24px 24px 24px auto;
   }
 
   p {
@@ -731,10 +737,10 @@ ul:nth-child(4) {
     margin-bottom: 16px;
     padding-right: 62px;
   }
-  
+
   .contact-me {
     background-image: url("images/background-contact-shape2.png"), url("images/Contactme-bg.png");
-    background-color: #ffffff, #ffffff;
+    background-color: #fff, #fff;
     background-repeat: no-repeat, no-repeat;
     background-position: center, auto;
     display: flex;
@@ -742,7 +748,8 @@ ul:nth-child(4) {
     padding-bottom: 127px;
   }
 
-  .contact-me-text, .contact-me-form {
+  .contact-me-text,
+  .contact-me-form {
     width: 33%;
     align-self: center;
   }
@@ -751,8 +758,10 @@ ul:nth-child(4) {
     margin-bottom: 0;
   }
 
-  .div1:hover, .div2:hover, .div3:hover, .div4:hover {
-    filter: drop-shadow(0px 0px 16px rgba(64, 83, 252, 0.24));
+  .div1:hover,
+  .div2:hover,
+  .div3:hover,
+  .div4:hover {
+    filter: drop-shadow(0 0 16px rgba(64, 83, 252, 0.24));
   }
-  
 }
