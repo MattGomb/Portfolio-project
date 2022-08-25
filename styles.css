@@ -539,7 +539,11 @@ ul:nth-child(4) {
     position: fixed;
     width: 100%;
     z-index: 999;
+    padding-top: 15px;
+    padding-left: 133px;
+    margin-top: 0;
   }
+
   header {
     border-bottom-left-radius: 130px;
   }
@@ -602,12 +606,6 @@ ul:nth-child(4) {
     line-height: 20px;
     color: #344563;
     padding: 10px 12px;
-  }
-
-  .hdr {
-    padding-top: 15px;
-    padding-left: 133px;
-    margin-top: 0;
   }
 
   .h1-text {
@@ -768,7 +766,7 @@ ul:nth-child(4) {
   .div3:hover,
   .div4:hover {
     filter: drop-shadow(0 0 16px rgba(64, 83, 252, 0.24));
-    border: 2px solid #A7AEFF;
+    border: 2px solid #a7aeff;
     border-radius: 24px;
   }
 }
