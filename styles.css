@@ -70,7 +70,7 @@ body {
   text-align: justify;
 }
 
-header {
+.main-body {
   display: flex;
   flex-direction: column;
   background-color: #fff;
@@ -78,11 +78,28 @@ header {
 }
 
 .hdr {
+  padding: 62px 24px 0 24px;
+  background-color: #ffffff;
   display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
   justify-content: space-between;
-  padding: 14px 24px;
-  margin-top: 44px;
+  align-items: center;
+}
 
+.logo {
+  font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #6070FF;
+}
+
+.bar {
+  text-align: right;
+  
 }
 
 .ulist {
@@ -520,6 +537,10 @@ ul:nth-child(4) {
 
 @media screen and (min-width: 768px) {
 
+  .hdr {
+    position: sticky;
+  }
+
   header {
     border-bottom-left-radius: 130px;
   }
@@ -541,21 +562,19 @@ ul:nth-child(4) {
     background-image: url(images/desktop-div4-bg.png);
   }
 
+  .par, .h1 {
+    width: 100%;
+  }
+
   #div1-bgr, #div2-bgr, #div3-bgr, #div4-bgr {
     background-size: contain;
     height: auto;
     width: 50%;
+    max-width: 568px;
   }
 
   .bar {
     display: none;
-  }
-
-  .logo {
-    padding: 10px 12px;
-    display: flex;
-    align-items: center;
-    text-align: center
   }
 
   .bar-desktop {
@@ -636,13 +655,13 @@ ul:nth-child(4) {
   .box1, .box2 {
     width: 50%;
     flex-basis: auto;
+    max-width: 556px;
   }
 
   .div2 .box2, .div4 .box2 {
-    order: -1;
     margin: 24px auto 27px 22px;
     width: 50%;
-    max-width: 593.25px;
+    max-width: 556px;
   }
 
   .div2 .box1, .div4 .box1 {
@@ -730,6 +749,10 @@ ul:nth-child(4) {
 
   #contact-button {
     margin-bottom: 0;
+  }
+
+  .div1:hover, .div2:hover, .div3:hover, .div4:hover {
+    filter: drop-shadow(0px 0px 16px rgba(64, 83, 252, 0.24));
   }
   
 }
