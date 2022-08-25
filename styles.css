@@ -668,8 +668,8 @@ ul:nth-child(4) {
   }
 
   .top {
-    width: 50%;
     margin: 0;
+    width: 60%;
   }
 
   .about-me {
@@ -681,11 +681,14 @@ ul:nth-child(4) {
     gap: 25px;
   }
 
+  .about-p {
+    margin-right: 0;
+    padding-right: 0;
+  }
+
   .h3-text {
     margin: 12px 0 16px 0;
   }
-
-
 
   .frame {
     flex-direction: column;
@@ -696,6 +699,7 @@ ul:nth-child(4) {
 
   #ulist-bottom {
     margin: 0 0 24px 0;
+    padding-left: 11px;
   }
 
   .list-styleb {
@@ -708,5 +712,24 @@ ul:nth-child(4) {
     margin-bottom: 16px;
     padding-right: 62px;
   }
+  
+  .contact-me {
+    background-image: url("images/background-contact-shape2.png"), url("images/Contactme-bg.png");
+    background-color: #ffffff, #ffffff;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 127px;
+  }
 
+  .contact-me-text, .contact-me-form {
+    width: 33%;
+    align-self: center;
+  }
+
+  #contact-button {
+    margin-bottom: 0;
+  }
+  
 }
