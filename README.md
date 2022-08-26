@@ -42,8 +42,8 @@ To get a local copy up and running follow these simple example steps:
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/asdt560)
-- Twitter: [@twitterhandle](https://twitter.com/JustoRago)
+- GitHub: [@asdt560](https://github.com/asdt560)
+- Twitter: [@JustoRago](https://twitter.com/JustoRago)
 - LinkedIn: [LinkedIn](www.linkedin.com/in/justo-rago-0714b5208)
 
 

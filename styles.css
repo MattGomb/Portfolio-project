@@ -637,6 +637,21 @@ ul:nth-child(4) {
   .ulist {
     margin: 0 1010px 255px 260px;
     padding: 0;
+    animation: 15s infinite slidein;
+  }
+
+  @keyframes slidein {
+    25% {
+      margin: 0 260px 255px 1010px;
+    }
+
+    50% {
+      margin: 255px 260px 0 1010px;
+    }
+
+    75% {
+      margin: 255px 1010px 0 260px;
+    }
   }
 
   .parent {
@@ -774,5 +789,15 @@ ul:nth-child(4) {
     filter: drop-shadow(0 0 16px rgba(64, 83, 252, 0.24));
     border: 2px solid #a7aeff;
     border-radius: 24px;
+  }
+
+  .list-langs1 {
+    transition: all 1s ease-in 0.5s;
+  }
+
+  .list-langs1:hover {
+    background-color: #6070ff;
+    border-radius: 10px;
+    color: #ebebff;
   }
 }
