@@ -637,7 +637,7 @@ ul:nth-child(4) {
   .ulist {
     margin: 0 1010px 255px 260px;
     padding: 0;
-    animation: 30s infinite slidein;
+    animation: 15s infinite slidein;
   }
 
   @keyframes slidein {
