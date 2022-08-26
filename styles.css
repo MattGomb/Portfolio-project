@@ -775,4 +775,16 @@ ul:nth-child(4) {
     border: 2px solid #a7aeff;
     border-radius: 24px;
   }
+
+  .list-langs1 {
+    transition: all 1s ease-in 0.5s; 
+  }
+
+  .list-langs1:hover {
+    background-color: #6070ff;
+    border-radius: 10px;
+    color: #ebebff;
+  }
+
+
 }
