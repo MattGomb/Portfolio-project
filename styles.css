@@ -641,24 +641,16 @@ ul:nth-child(4) {
   }
 
   @keyframes slidein {
-    0% {
-      
-    }
-
     25% {
       margin: 0 260px 255px 1010px;
     }
 
-    50%{
+    50% {
       margin: 255px 260px 0 1010px;
     }
 
     75% {
       margin: 255px 1010px 0 260px;
-    }
-
-    100% {
-      
     }
   }
 
@@ -800,7 +792,7 @@ ul:nth-child(4) {
   }
 
   .list-langs1 {
-    transition: all 1s ease-in 0.5s; 
+    transition: all 1s ease-in 0.5s;
   }
 
   .list-langs1:hover {
@@ -808,6 +800,4 @@ ul:nth-child(4) {
     border-radius: 10px;
     color: #ebebff;
   }
-
-
 }
