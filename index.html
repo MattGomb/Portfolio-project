@@ -11,11 +11,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <div>
         <nav class="hdr">
-            <div class="logo"><img src="./images/MyLogo.png" alt="My Logo"></div>
+            <div class="logo">
+                <p>My Logo</p>
+            </div>
             <div class="bar"><img src="./images/Union.png" alt="menu"></div>
+            <div class="bar-desktop">
+                <ul class="bar-desktop-list">
+                    <li class="bdl-el"><a href="#portfoliostart">Portfolio</a></li>
+                    <li class="bdl-el"><a href="#aboutmelink">About</a></li>
+                    <li class="bdl-el"><a href="#contactmelink">Contact</a></li>
+                </ul>
+            </div>
         </nav>
+    </div>
         <div class="main-body">
             <div class="h1">
                 <h1 class="h1-text">I'm Mátyás glad to see you!</h1>
@@ -37,11 +47,9 @@
                 </ul>
             </div>
         </div>
-    </header>
         <section class="works parent">
-            <div class="div1">
-                <div class="box1">
-                    <img class="div1-bgr" src="./images/div1-bgr.png" alt="background image">
+            <div id="portfoliostart" class="div1">
+                <div id="div1-bgr" class="box1">
                 </div>
                 <div class="box2">
                     <div class="box2a">
@@ -70,8 +78,7 @@
                 </div>
             </div>
             <div class="div2">
-                <div class="box1">
-                    <img class="div1-bgr" src="./images/div2-bgr.png" alt="background image">
+                <div id="div2-bgr" class="box1">
                 </div>
                 <div class="box2">
                     <div class="box2a">
@@ -100,8 +107,7 @@
                 </div>
             </div>
             <div class="div3">
-                <div class="box1">
-                    <img class="div1-bgr" src="./images/div3-bgr.png" alt="background image">
+                <div id="div3-bgr" class="box1">
                 </div>
                 <div class="box2">
                     <div class="box2a">
@@ -130,8 +136,7 @@
                 </div>
             </div>
             <div class="div4">
-                <div class="box1">
-                    <img class="div1-bgr" src="./images/div4-bgr.png" alt="background image">
+                <div id="div4-bgr" class="box1">
                 </div>
                 <div class="box2">
                     <div class="box2a">
@@ -160,14 +165,14 @@
                 </div>
             </div>
         </section>
-        <section class="about-me">
+        <section id="aboutmelink" class="about-me">
             <div class="top">
                 <h2 class="gen-title">About Myself</h2>
                 <p class="about-p">Hello I’m a software developer! I can help you build a product , 
                     feature or website Look through some of my work and experience! 
                     If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
                 <h3 class="h3-text">LET'S CONNECT</h3>
-                <ul class="ulist">
+                <ul id="ulist-bottom" class="ulist">
                     <li><a href="https://github.com/MattGomb"><img src="./images/github.svg" alt="github"></a></li>
                     <li><a href="https://www.linkedin.com/in/gombos-m%C3%A1ty%C3%A1s-28139771/"><img src="./images/Linkedinicon.svg" alt="linkedin"></a></li>
                     <li><a href="https://angel.co/onboarding/welcome"><img src="./images/angelly.svg" alt="angelly"></a></li>
@@ -180,13 +185,13 @@
                 <ul class="list-style">
                     <li>
                         <div class="frame7">
-                            <span>Languages</span>
+                            <span class="liste">Languages</span>
                             <img src="./images/down-button.png" alt="disabled button arrow">
                         </div>
                     <ul class="list-style list-styleb">
-                        <li class="frame"><img src="./images/icon-javascript.png" alt="Javascript icon"> javaScript</li>
-                        <li class="frame"><img src="./images/icon-html.png" alt="html icon"> HTML</li>
-                        <li class="frame"><img src="./images/icon-css.png" alt="css icon"> CSS</li>
+                        <li class="frame"><img class="img-skill" src="./images/icon-javascript.png" alt="Javascript icon"> javaScript</li>
+                        <li class="frame"><img class="img-skill" src="./images/icon-html.png" alt="html icon"> HTML</li>
+                        <li class="frame"><img class="img-skill" src="./images/icon-css.png" alt="css icon"> CSS</li>
                     </ul> 
                     </li>
                         <li class="frame7">
@@ -202,8 +207,8 @@
                 </ul>
             </div>
         </section>
-        <section class="contact-me">
-            <div>
+        <section id="contactmelink" class="contact-me">
+            <div class="contact-me-text">
                 <h4>Contact me</h4>
                 <p class="p-contact-me">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
             </div>
