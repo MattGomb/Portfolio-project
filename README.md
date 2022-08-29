@@ -2,7 +2,7 @@
 
 # Project Name
 
-> My first complex project in the Microverse program. So far, only one step is completed
+> My first complex project in the Microverse program. 
 
 
 ## Built With
@@ -11,6 +11,9 @@
 
 ## Live Demo (if available)
 
+- Check out the demo page here:
+
+https://mattgomb.github.io/Portfolio-project/
 
 ## Getting Started
 
