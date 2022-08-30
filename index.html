@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Header</title>
+    <title>Matt's Microverse Portfolio Project</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +16,7 @@
             <div class="logo">
                 <p>My Logo</p>
             </div>
-            <div class="bar"><img src="./images/Union.png" alt="menu"></div>
+            <div class="bar"><img src="./images/Union.png" alt="hamburger menu"></div>
             <div class="bar-desktop">
                 <ul class="bar-desktop-list">
                     <li class="bdl-el"><a href="#portfoliostart">Portfolio</a></li>
@@ -35,15 +35,15 @@
                     If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
             </div>
             <div class="h2">
-                <h2 class="h2-text">LET'S CONNECT</h2>
+                <span class="h2-text">LET'S CONNECT</span>
             </div>
             <div class="social-links">
                 <ul class="ulist">
-                    <li class="ulist-icon"><a href="https://twitter.com/MtysGombos1"><img src="./images/twitter.svg" alt="twitter"></a></li>
-                    <li class="ulist-icon"><a href="https://www.linkedin.com/in/gombos-m%C3%A1ty%C3%A1s-28139771/"><img src="./images/Linkedinicon.svg" alt="linkedin"></a></li>
-                    <li class="ulist-icon"><a href="https://medium.com/"><img src="./images/medium.svg" alt="medium"></a></li>
-                    <li class="ulist-icon"><a href="https://github.com/MattGomb"><img src="./images/github.svg" alt="github"></a></li>
-                    <li class="ulist-icon"><a href="https://angel.co/onboarding/welcome"><img src="./images/angelly.svg" alt="angelly"></a></li>
+                    <li class="ulist-icon"><a href="https://twitter.com/MtysGombos1"><img src="./images/twitter.svg" alt="twitter icon"></a></li>
+                    <li class="ulist-icon"><a href="https://www.linkedin.com/in/gombos-m%C3%A1ty%C3%A1s-28139771/"><img src="./images/Linkedinicon.svg" alt="linkedin icon"></a></li>
+                    <li class="ulist-icon"><a href="https://medium.com/"><img src="./images/medium.svg" alt="medium icon"></a></li>
+                    <li class="ulist-icon"><a href="https://github.com/MattGomb"><img src="./images/github.svg" alt="github icon"></a></li>
+                    <li class="ulist-icon"><a href="https://angel.co/onboarding/welcome"><img src="./images/angelly.svg" alt="angellist icon"></a></li>
                 </ul>
             </div>
         </div>
@@ -171,13 +171,13 @@
                 <p class="about-p">Hello I’m a software developer! I can help you build a product , 
                     feature or website Look through some of my work and experience! 
                     If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-                <h3 class="h3-text">LET'S CONNECT</h3>
+                <span class="h3-text">LET'S CONNECT</span>
                 <ul id="ulist-bottom" class="ulist">
-                    <li><a href="https://github.com/MattGomb"><img src="./images/github.svg" alt="github"></a></li>
-                    <li><a href="https://www.linkedin.com/in/gombos-m%C3%A1ty%C3%A1s-28139771/"><img src="./images/Linkedinicon.svg" alt="linkedin"></a></li>
-                    <li><a href="https://angel.co/onboarding/welcome"><img src="./images/angelly.svg" alt="angelly"></a></li>
-                    <li><a href="https://twitter.com/MtysGombos1"><img src="./images/twitter.svg" alt="twitter"></a></li>
-                    <li><a href="https://medium.com/"><img src="./images/medium.svg" alt="medium"></a></li>
+                    <li><a href="https://github.com/MattGomb"><img src="./images/github.svg" alt="github icon"></a></li>
+                    <li><a href="https://www.linkedin.com/in/gombos-m%C3%A1ty%C3%A1s-28139771/"><img src="./images/Linkedinicon.svg" alt="linkedin icon"></a></li>
+                    <li><a href="https://angel.co/onboarding/welcome"><img src="./images/angelly.svg" alt="angellist icon"></a></li>
+                    <li><a href="https://twitter.com/MtysGombos1"><img src="./images/twitter.svg" alt="twitter icon"></a></li>
+                    <li><a href="https://medium.com/"><img src="./images/medium.svg" alt="medium icon"></a></li>
                 </ul>
                 <button type="submit" class="box2d-button">Get my resume</button>
             </div>
@@ -209,13 +209,16 @@
         </section>
         <section id="contactmelink" class="contact-me">
             <div class="contact-me-text">
-                <h4>Contact me</h4>
+                <h2 class="h-contact-me">Contact me</h2>
                 <p class="p-contact-me">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
             </div>
             <form class="contact-me-form" action="https://formspree.io/f/xdojkeny" method="POST"> 
-                <input class="form-name" type="text" name="name" placeholder="Full name" maxlength="30" required>
-                <input class="form-email" type="email" name="email" placeholder="example@adc.xy" required>
-                <textarea class="form-msg" name="message" placeholder="Write your message here" maxlength="500" required></textarea>
+                <label for="name" hidden>Full name</label>
+                <input class="form-name" type="text" name="name" id="name" placeholder="Full name" maxlength="30" required>
+                <label for="email" hidden>E-mail</label>
+                <input class="form-email" type="email" name="email" id="email" placeholder="example@adc.xy" required>
+                <label for="message" hidden>Message</label>
+                <textarea class="form-msg" name="message" id="message" placeholder="Write your message here" maxlength="500" required></textarea>
                 <button class="box2d-button" id="contact-button" type="submit">Get in touch</button>
             </form>
         </section>

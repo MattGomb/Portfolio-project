@@ -49,6 +49,11 @@ To get a local copy up and running follow these simple example steps:
 - Twitter: [@JustoRago](https://twitter.com/JustoRago)
 - LinkedIn: [LinkedIn](www.linkedin.com/in/justo-rago-0714b5208)
 
+👤 **Author3**
+
+- GitHub: [@Kevo-hacker](https://github.com/Kevo-hacker)
+- Twitter: [@kevoyout144](https://twitter.com/kevoyout144)
+- LinkedIn: [LinkedIn](www.linkedin.com/in/kelvin-ben-323043173/)
 
 
 ## Show your support

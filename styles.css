@@ -67,7 +67,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   padding: 12px 24px 0 24px;
-  color: #7f8cff;
+  color: #5661c4;
   margin: 0;
 }
 
@@ -99,7 +99,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #6070ff;
+  color: #5462e0;
 }
 
 .bar {
@@ -256,13 +256,13 @@ body {
   float: left;
   list-style: none;
   padding: 4px 12px;
-  background: #ebebff;
+  background: #ebffff;
   border-radius: 8px;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-  color: #6070ff;
+  color: #3649fa;
 }
 
 .box2b {
@@ -306,13 +306,13 @@ body {
   padding: 12px;
   gap: 10px;
   left: 100px;
-  border: 1px solid #7f8cff;
+  border: 1px solid #3261d6;
   border-radius: 8px;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  color: #396df2;
+  color: #3261d6;
   background: #fff;
 }
 
@@ -369,7 +369,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7f8cff;
+  color: #5661c4;
   margin: 0;
   padding: 0;
 }
@@ -454,7 +454,7 @@ span {
   flex-wrap: wrap;
 }
 
-h4 {
+.h-contact-me {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -637,20 +637,12 @@ ul:nth-child(4) {
   .ulist {
     margin: 0 1010px 255px 260px;
     padding: 0;
-    animation: 15s infinite slidein;
+    animation: 1s 1 slidein;
   }
 
   @keyframes slidein {
-    25% {
-      margin: 0 260px 255px 1010px;
-    }
-
     50% {
-      margin: 255px 260px 0 1010px;
-    }
-
-    75% {
-      margin: 255px 1010px 0 260px;
+      margin: 0 10px 0 0;
     }
   }
 
@@ -796,8 +788,8 @@ ul:nth-child(4) {
   }
 
   .list-langs1:hover {
-    background-color: #6070ff;
+    background-color: #3649fa;
     border-radius: 10px;
-    color: #ebebff;
+    color: #ebffff;
   }
 }
