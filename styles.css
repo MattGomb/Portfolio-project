@@ -637,20 +637,12 @@ ul:nth-child(4) {
   .ulist {
     margin: 0 1010px 255px 260px;
     padding: 0;
-    animation: 15s infinite slidein;
+    animation: 1s 1 slidein;
   }
 
   @keyframes slidein {
-    25% {
-      margin: 0 260px 255px 1010px;
-    }
-
     50% {
-      margin: 255px 260px 0 1010px;
-    }
-
-    75% {
-      margin: 255px 1010px 0 260px;
+      margin: 0 10px 0 0;
     }
   }
 
