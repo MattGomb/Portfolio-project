@@ -104,6 +104,7 @@ body {
 
 .bar {
   text-align: right;
+  display: block;
 }
 
 .ulist {
@@ -535,6 +536,10 @@ span {
 
 ul:nth-child(4) {
   padding-left: 0;
+}
+
+#disable {
+  display: none;
 }
 
 /* ------------ DESKTOP scaling ------------ */

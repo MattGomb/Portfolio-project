@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 <body>
     <div>
@@ -16,7 +17,9 @@
             <div class="logo">
                 <p>My Logo</p>
             </div>
-            <div class="bar"><img src="./images/Union.png" alt="hamburger menu"></div>
+            <a href="#" class="bar" id="toggleMenu" onclick="toggleFunction()"><img src="./images/Union.png" alt="hamburger menu"></a>
+            <a href="#" class="bar" id="disable"><img src="./images/menu-close-icon.png" alt="close" ></a>
+
             <div class="bar-desktop">
                 <ul class="bar-desktop-list">
                     <li class="bdl-el"><a href="#portfoliostart">Portfolio</a></li>
