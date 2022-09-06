@@ -833,4 +833,8 @@ ul:nth-child(4) {
     border-radius: 10px;
     color: #ebffff;
   }
+
+  .hamburger {
+    display: none;
+  }
 }
