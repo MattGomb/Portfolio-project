@@ -583,6 +583,10 @@ ul:nth-child(4) {
   cursor: pointer;
 }
 
+.desktop-title {
+  display: none;
+}
+
 /* ------------ DESKTOP scaling ------------ */
 
 @media screen and (min-width: 768px) {
@@ -618,6 +622,24 @@ ul:nth-child(4) {
 
   #div4-bgr {
     background-image: url(images/desktop-div4-bg.png);
+  }
+
+  .desktop-title {
+    width: 295px;
+    height: 36px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+    flex: none;
+    flex-grow: 0;
+    margin: 0;
+    display: block;
+  }
+
+  .gen-title {
+    display: none;
   }
 
   .par,
