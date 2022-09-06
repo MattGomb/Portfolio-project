@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 <body>
     <div>
@@ -16,7 +17,16 @@
             <div class="logo">
                 <p>My Logo</p>
             </div>
-            <div class="bar"><img src="./images/Union.png" alt="hamburger menu"></div>
+            <div id="myButtons" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+                <div class="overlay-content">
+                    <a href="#portfoliostart" onclick="closeMenu()">Portfolio</a>
+                    <a href="#aboutmelink" onclick="closeMenu()">About</a>
+                    <a href="#contactmelink" onclick="closeMenu()">Contact</a>
+                </div>               
+            </div>
+            <span class="hamburger" onclick="openMenu()">&#9776;</span>
+
             <div class="bar-desktop">
                 <ul class="bar-desktop-list">
                     <li class="bdl-el"><a href="#portfoliostart">Portfolio</a></li>

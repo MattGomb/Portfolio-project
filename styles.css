@@ -104,6 +104,7 @@ body {
 
 .bar {
   text-align: right;
+  display: block;
 }
 
 .ulist {
@@ -537,6 +538,51 @@ ul:nth-child(4) {
   padding-left: 0;
 }
 
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(96, 112, 255, 0.9);
+}
+
+.overlay-content {
+  position: relative;
+  top: 10%;
+  width: 100%;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 35px;
+  right: 3%;
+  font-size: 40px;
+}
+
+.closebtn:hover,
+.hamburger:hover {
+  cursor: pointer;
+}
+
 /* ------------ DESKTOP scaling ------------ */
 
 @media screen and (min-width: 768px) {
@@ -791,5 +837,9 @@ ul:nth-child(4) {
     background-color: #3649fa;
     border-radius: 10px;
     color: #ebffff;
+  }
+
+  .hamburger {
+    display: none;
   }
 }
