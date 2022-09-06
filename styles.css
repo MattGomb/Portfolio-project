@@ -578,8 +578,9 @@ ul:nth-child(4) {
   font-size: 40px;
 }
 
-.closebtn:hover, .hamburger:hover {
-  cursor: pointer
+.closebtn:hover,
+.hamburger:hover {
+  cursor: pointer;
 }
 
 /* ------------ DESKTOP scaling ------------ */
