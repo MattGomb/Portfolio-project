@@ -1,7 +1,7 @@
 function openNav() {
-    document.getElementById("myNav").style.display = "block";
+    document.getElementById("myButtons").style.display = "block";
 }
   
 function closeNav() {
-    document.getElementById("myNav").style.display = "none";
+    document.getElementById("myButtons").style.display = "none";
 }

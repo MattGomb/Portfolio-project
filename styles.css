@@ -546,8 +546,7 @@ ul:nth-child(4) {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgba(96,112,255, 0.9);
-
+  background-color: rgba(96, 112, 255, 0.9);
 }
 
 .overlay-content {
@@ -562,12 +561,13 @@ ul:nth-child(4) {
   padding: 8px;
   text-decoration: none;
   font-size: 36px;
-  color: #ffffff;
+  color: #fff;
   display: block;
   transition: 0.3s;
 }
 
-.overlay a:hover, .overlay a:focus {
+.overlay a:hover,
+.overlay a:focus {
   color: #f1f1f1;
 }
 
