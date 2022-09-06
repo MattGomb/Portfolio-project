@@ -1,7 +1,9 @@
-function openNav() {
-  document.getElementById('myButtons').style.display = 'block';
+// eslint-disable-next-line no-unused-vars
+function closeMenu() {
+  document.getElementById('myButtons').style.display = 'none';
 }
 
-function closeNav() {
-  document.getElementById('myButtons').style.display = 'none';
+// eslint-disable-next-line no-unused-vars
+function openMenu() {
+  document.getElementById('myButtons').style.display = 'block';
 }
