@@ -9,7 +9,7 @@ body {
 }
 
 #blur.active {
-  filter: blur(10px);
+  filter: blur(5px);
 }
 
 .main-body {
@@ -691,9 +691,9 @@ ul:nth-child(4) {
   }
 
   .bdl-el a:hover {
-  color: #5462e0;
-  text-decoration: underline;
-}
+    color: #5462e0;
+    text-decoration: underline;
+  }
 
   .h1-text {
     margin: 288px 260px 0 260px;
