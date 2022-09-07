@@ -1008,3 +1008,7 @@ ul:nth-child(4) {
     width: 25%;
   }
 }
+
+#blur1.active {
+  filter: blur(10px);
+}

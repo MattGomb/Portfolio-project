@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.popbtn').forEach((item) => {
     item.addEventListener('click', () => {
       counter += 1;
-      const blur = document.getElementById('blur');
+      const blur = document.getElementById('blur1');
       blur.classList.toggle('active');
       const div1 = document.createElement('div');
       div1.classList.add('popdiv1');
@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
       closeSign.textContent = 'X';
       closeSign.addEventListener('click', () => {
         document.getElementsByClassName('popdiv1')[counter].style.display = 'none';
-        const blur = document.getElementById('blur');
+        const blur = document.getElementById('blur1');
         blur.classList.toggle('active');
       });
       const img = document.createElement('img');
