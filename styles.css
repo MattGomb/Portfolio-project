@@ -678,10 +678,6 @@ ul:nth-child(4) {
   grid-area: a;
 }
 
-#blur.active {
-  filter: blur(5px);
-}
-
 /* ------------ DESKTOP scaling ------------ */
 
 @media screen and (min-width: 768px) {
@@ -967,7 +963,7 @@ ul:nth-child(4) {
   .hamburger {
     display: none;
   }
-  
+
   .popdiv1 {
     display: block;
     position: fixed;
