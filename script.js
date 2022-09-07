@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const div2 = document.createElement('div');
       div2.classList.add('popdiv2');
       div1.appendChild(div2);
-      const id = parseInt(item.parentElement.parentElement.classList[0].replace(/[^\d.]/g, ''), 10);
+      const id = parseInt(item.parentElement.parentElement.classList[1].replace(/[^\d.]/g, ''), 10);
       const data = infoArray.find((item) => item.id === id);
       const element1 = document.querySelector('body');
       element1.appendChild(div1);
