@@ -59,7 +59,6 @@ const infoArray = [
 
 let counter = -1;
 document.addEventListener('DOMContentLoaded', () => {
-  // const btn = document.querySelectorAll('.btn');
   document.querySelectorAll('.popbtn').forEach((item) => {
     item.addEventListener('click', () => {
       counter += 1;
