@@ -15,7 +15,7 @@ function openMenu() {
 const pName = ['Tonic', 'Multi-Post Stories', 'Facebook360', 'Uber Navigation'];
 const description = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea";
 const technologies = ['Html', 'Css', 'Javascript'];
-const featuredimg = ['./images/div0-bgr.png','./images/div1-bgr.png', './images/div2-bgr.png', './images/div3-bgr.png'];
+const featuredimg = ['./images/div0-bgr.png', './images/div1-bgr.png', './images/div2-bgr.png', './images/div3-bgr.png'];
 const liveLink = ['https://mattgomb.github.io/Portfolio-project/'];
 const sourceLink = ['https://github.com/MattGomb/portfolio-project'];
 const infoArray = [
@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const ul = document.createElement('ul');
       ul.classList.add('ul-pop');
       div1.appendChild(ul);
-      for (let i = 0; i < technologies.length; i++) {
+      for (let i = 0; i < technologies.length; i += 1) {
         const li = document.createElement('li');
         li.classList.add('li-pop');
         ul.appendChild(li);
