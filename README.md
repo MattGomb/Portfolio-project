@@ -13,7 +13,7 @@
 
 - Check out the demo page here:
 
-https://mattgomb.github.io/Portfolio-project/
+[Live demo](https://mattgomb.github.io/Portfolio-project/)
 
 ## Getting Started
 
