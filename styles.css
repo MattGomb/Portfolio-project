@@ -678,9 +678,18 @@ ul:nth-child(4) {
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-    color: #344563;
     padding: 10px 12px;
   }
+
+  .bdl-el a {
+    color: #344563;
+    text-decoration: none;
+  }
+
+  .bdl-el a:hover {
+  color: #5462e0;
+  text-decoration: underline;
+}
 
   .h1-text {
     margin: 288px 260px 0 260px;
