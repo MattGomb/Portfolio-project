@@ -776,11 +776,6 @@ ul:nth-child(4) {
     text-decoration: none;
   }
 
-  .bdl-el a:hover {
-    color: #5462e0;
-    text-decoration: underline;
-  }
-
   .h1-text {
     margin: 288px 260px 0 260px;
     padding: 0;
@@ -987,7 +982,12 @@ ul:nth-child(4) {
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-    color: #396DF2;
+    color: #396df2;
+  }
+
+  .bdl-el a:hover {
+    color: #5462e0;
+    text-decoration: underline;
   }
 
   .img-pop {
