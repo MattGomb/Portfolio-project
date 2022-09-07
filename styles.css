@@ -100,6 +100,7 @@ body {
   align-items: center;
   text-align: center;
   color: #5462e0;
+  padding-left: 10%;
 }
 
 .bar {
@@ -592,10 +593,9 @@ ul:nth-child(4) {
 @media screen and (min-width: 768px) {
   .hdr {
     position: fixed;
-    width: 100%;
+    width: 80%;
     z-index: 999;
     padding-top: 15px;
-    padding-left: 133px;
     margin-top: 0;
     top: 0;
   }
@@ -663,7 +663,7 @@ ul:nth-child(4) {
 
   .bar-desktop {
     display: block;
-    margin: 0 142px auto auto;
+    margin: 0 6% auto auto;
   }
 
   .bar-desktop-list {
