@@ -969,7 +969,6 @@ ul:nth-child(4) {
     position: fixed;
     padding: 3%;
     width: 80%;
-    margin-left: 5%;
     overflow: hidden;
     max-height: 80%;
   }
@@ -980,6 +979,15 @@ ul:nth-child(4) {
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
+  }
+
+  .btn-pop a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #396DF2;
   }
 
   .img-pop {
