@@ -12,6 +12,17 @@ function openMenu() {
   blur.classList.toggle('active');
 }
 
+const submit = document.getElementById('contact-button');
+submit.addEventListener('click', (e) => {
+  const email = document.getElementById('email').value;
+  const emailLower = email.toLowerCase();
+  const text = document.getElementById('text');
+  if (email !== emailLower) {
+    e.preventDefault();
+    text.innerText = '*please enter email without capital letters!';
+  }
+});
+
 const pName = ['Tonic', 'Multi-Post Stories', 'Facebook360', 'Uber Navigation'];
 const description = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea";
 const technologies = ['Html', 'Css', 'Javascript'];

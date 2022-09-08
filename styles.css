@@ -536,7 +536,7 @@ span {
 
 #contact-button {
   width: max-content;
-  margin-bottom: 32px;
+  margin-bottom: 5%;
 }
 
 ul:nth-child(4) {
@@ -676,6 +676,12 @@ ul:nth-child(4) {
   display: flex;
   justify-content: space-between;
   grid-area: a;
+}
+
+#text {
+  color: whitesmoke;
+  background-color: red;
+  border-radius: 10px;
 }
 
 /* ------------ DESKTOP scaling ------------ */
@@ -933,7 +939,7 @@ ul:nth-child(4) {
   }
 
   #contact-button {
-    margin-bottom: 0;
+    margin-bottom: 2%;
   }
 
   .div0:hover,
