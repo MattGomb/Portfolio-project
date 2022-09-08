@@ -138,14 +138,14 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-const name = document.getElementById('name');
+const name1 = document.getElementById('name');
 const email = document.getElementById('email');
 const message = document.getElementById('message');
 
 function getInput() {
   const input = JSON.parse(localStorage.getItem('input'));
   if (input) {
-    name.value = input.name;
+    name1.value = input.name;
     email.value = input.email;
     message.value = input.message;
   }
@@ -153,7 +153,7 @@ function getInput() {
 
 function storeInput() {
   const input = {
-    name: name.value,
+    name: name1.value,
     email: email.value,
     message: message.value,
   };
@@ -162,6 +162,6 @@ function storeInput() {
 
 getInput();
 
-name.addEventListener('input', storeInput);
+name1.addEventListener('input', storeInput);
 email.addEventListener('input', storeInput);
 message.addEventListener('input', storeInput);
