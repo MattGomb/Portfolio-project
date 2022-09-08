@@ -138,31 +138,30 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
+const name = document.getElementById('name');
+const email = document.getElementById('email');
+const message = document.getElementById('message');
+
 function getInput() {
-  const pull = localStorage.getItem('formInputs');
-  const pullFormInputs = JSON.parse(pull);
-  document.getElementById('name').value = pullFormInputs.name;
-  document.getElementById('email').value = pullFormInputs.email;
-  document.getElementById('message').value = pullFormInputs.message;
+  const input = JSON.parse(localStorage.getItem('input'));
+  if (input) {
+    name.value = input.name;
+    email.value = input.email;
+    message.value = input.message;
+  }
 }
 
-function intoLocalStorage() {
-  const formInfo = {
-    name: document.getElementById('name').value,
-    email: document.getElementById('email').value,
-    message: document.getElementById('message').value,
+function storeInput() {
+  const input = {
+    name: name.value,
+    email: email.value,
+    message: message.value,
   };
-
-  localStorage.setItem('formInputs', JSON.stringify(formInfo));
-  getInput();
+  localStorage.setItem('input', JSON.stringify(input));
 }
 
-if (!localStorage.getItem('formInputs')) {
-  intoLocalStorage();
-} else {
-  getInput();
-}
+getInput();
 
-document.getElementById('name').onchange = intoLocalStorage;
-document.getElementById('email').onchange = intoLocalStorage;
-document.getElementById('message').onchange = intoLocalStorage;
+name.addEventListener('input', storeInput);
+email.addEventListener('input', storeInput);
+message.addEventListener('input', storeInput);
