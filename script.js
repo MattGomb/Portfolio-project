@@ -137,3 +137,32 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
+function getInput() {
+  const pull = localStorage.getItem('formInputs');
+  const pullFormInputs = JSON.parse(pull);
+  document.getElementById('name').value = pullFormInputs.name;
+  document.getElementById('email').value = pullFormInputs.email;
+  document.getElementById('message').value = pullFormInputs.message;
+}
+
+function intoLocalStorage() {
+  const formInfo = {
+    name: document.getElementById('name').value,
+    email: document.getElementById('email').value,
+    message: document.getElementById('message').value,
+  };
+
+  localStorage.setItem('formInputs', JSON.stringify(formInfo));
+  getInput();
+}
+
+if (!localStorage.getItem('formInputs')) {
+  intoLocalStorage();
+} else {
+  getInput();
+}
+
+document.getElementById('name').onchange = intoLocalStorage;
+document.getElementById('email').onchange = intoLocalStorage;
+document.getElementById('message').onchange = intoLocalStorage;
