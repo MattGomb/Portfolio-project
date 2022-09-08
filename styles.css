@@ -536,7 +536,7 @@ span {
 
 #contact-button {
   width: max-content;
-  margin-bottom: 32px;
+  margin-bottom: 5%;
 }
 
 ul:nth-child(4) {
@@ -676,6 +676,12 @@ ul:nth-child(4) {
   display: flex;
   justify-content: space-between;
   grid-area: a;
+}
+
+#text {
+  color: whitesmoke;
+  background-color: red;
+  border-radius: 10px;
 }
 
 /* ------------ DESKTOP scaling ------------ */
@@ -1011,4 +1017,11 @@ ul:nth-child(4) {
 
 #blur1.active {
   filter: blur(10px);
+}
+
+#text {
+  color: whitesmoke;
+  background-color: red;
+  border-radius: 10px;
+  margin-top: 2%;
 }
