@@ -137,3 +137,31 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
+const name1 = document.getElementById('name');
+const email = document.getElementById('email');
+const message = document.getElementById('message');
+
+function getInput() {
+  const input = JSON.parse(localStorage.getItem('input'));
+  if (input) {
+    name1.value = input.name;
+    email.value = input.email;
+    message.value = input.message;
+  }
+}
+
+function storeInput() {
+  const input = {
+    name: name1.value,
+    email: email.value,
+    message: message.value,
+  };
+  localStorage.setItem('input', JSON.stringify(input));
+}
+
+getInput();
+
+name1.addEventListener('input', storeInput);
+email.addEventListener('input', storeInput);
+message.addEventListener('input', storeInput);
