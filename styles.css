@@ -25,7 +25,7 @@ body {
 }
 
 #div0-bgr {
-  background-image: url(images/div1-bgr.png);
+  background-image: url(realproject-imgs/awesomebooks-responsive.JPG);
 }
 
 #div1-bgr {
@@ -633,13 +633,12 @@ ul:nth-child(4) {
 .img-pop {
   grid-area: b;
   width: 100%;
+  border-radius: 0.5rem;
 }
 
 .para-pop {
   padding: 0 2% 0 0;
   margin-bottom: 0;
-  overflow-y: hidden;
-  height: 200px;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -655,6 +654,7 @@ ul:nth-child(4) {
   list-style: none;
   padding-left: 0;
   grid-area: d;
+  justify-content: center;
 }
 
 .ul-pop .li-pop {
@@ -681,6 +681,7 @@ ul:nth-child(4) {
   display: flex;
   justify-content: space-between;
   grid-area: a;
+  margin-bottom: 1rem;
 }
 
 #text {
@@ -697,6 +698,26 @@ ul:nth-child(4) {
 
 .closesign:hover {
   font-size: 1.125rem;
+}
+
+.list-langs1 {
+  transition: all 1s ease-in 0.5s;
+  cursor: context-menu;
+}
+
+.list-langs1:hover {
+  background-color: #3649fa;
+  border-radius: 10px;
+  color: #ebffff;
+}
+
+.btn-pop a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #396df2;
 }
 
 /* ------------ DESKTOP scaling ------------ */
@@ -720,7 +741,7 @@ ul:nth-child(4) {
   }
 
   #div0-bgr {
-    background-image: url(images/desktop-div0-bg.png);
+    background-image: url(realproject-imgs/awesomebooks-responsive.JPG);
   }
 
   #div1-bgr {
@@ -978,15 +999,14 @@ ul:nth-child(4) {
 
   .popdiv1 {
     display: block;
-    position: fixed;
     padding: 3%;
     width: 80%;
-    overflow: hidden;
     max-height: 80%;
+    margin: 0 5% 0 5%;
   }
 
   .btn-pop {
-    margin: 8px 8px 0 0;
+    margin: 0.5rem 2rem 0 0;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -1008,24 +1028,41 @@ ul:nth-child(4) {
   }
 
   .img-pop {
-    height: 70%;
-    width: 100%;
+    max-height: 70%;
+    max-width: 1422px;
     margin-bottom: 5%;
   }
 
   .para-pop {
     margin: 0 2% 0 0;
     float: left;
-    width: 70%;
-    max-height: 150px;
+    width: 60%;
+    height: 200px;
   }
 
   .ul-pop {
     float: left;
-    width: 25%;
+    width: 30%;
+    margin-bottom: 1rem;
+    justify-content: left;
   }
 }
 
 #blur1.active {
   filter: blur(10px);
+}
+
+.btn-pop-div {
+  display: flex;
+  width: 30%;
+}
+
+@media screen and (min-width: 1800px) {
+  .img-pop, .para-pop {
+    margin-left: 8%;
+  }
+
+  .ul-pop, .btn-pop-div {
+    width: 25%;
+  }
 }

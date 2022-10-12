@@ -23,18 +23,18 @@ submit.addEventListener('click', (e) => {
   }
 });
 
-const pName = ['Tonic', 'Multi-Post Stories', 'Facebook360', 'Uber Navigation'];
-const description = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea";
+const pName = ['Awesomebooks', 'PLACEHOLDER 2', 'PLACEHOLDER 3', 'PLACEHOLDER 4'];
+const description = ['This is the restructured version of the famous awesome-books project! Here you can find JavaScript broken into modules, using import-export where necessary. Also updated the current time feature to use LUXON, which was a project requirement.', "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea"];
 const technologies = ['Html', 'Css', 'Javascript'];
-const featuredimg = ['./images/div0-bgr.png', './images/div1-bgr.png', './images/div2-bgr.png', './images/div3-bgr.png'];
-const liveLink = ['https://mattgomb.github.io/Portfolio-project/'];
-const sourceLink = ['https://github.com/MattGomb/portfolio-project'];
+const featuredimg = ['./realproject-imgs/awesomebooks-1.JPG', './images/div1-bgr.png', './images/div2-bgr.png', './images/div3-bgr.png'];
+const liveLink = ['https://mattgomb.github.io/awesome-books-ES6/', 'https://mattgomb.github.io/Portfolio-project/'];
+const sourceLink = ['https://github.com/MattGomb/awesome-books-ES6', 'https://github.com/MattGomb/portfolio-project'];
 const infoArray = [
   {
     id: 0,
     name: pName[0],
     featuredimg: featuredimg[0],
-    description,
+    description: description[0],
     technologies,
     liveLink: liveLink[0],
     sourceLink: sourceLink[0],
@@ -43,7 +43,7 @@ const infoArray = [
     id: 1,
     name: pName[1],
     featuredimg: featuredimg[1],
-    description,
+    description: description[1],
     technologies,
     liveLink: liveLink[0],
     sourceLink: sourceLink[0],
@@ -52,7 +52,7 @@ const infoArray = [
     id: 2,
     name: pName[2],
     featuredimg: featuredimg[2],
-    description,
+    description: description[1],
     technologies,
     liveLink: liveLink[0],
     sourceLink: sourceLink[0],
@@ -61,7 +61,7 @@ const infoArray = [
     id: 3,
     name: pName[3],
     featuredimg: featuredimg[3],
-    description,
+    description: description[1],
     technologies,
     liveLink: liveLink[0],
     sourceLink: sourceLink[0],
@@ -108,6 +108,9 @@ document.addEventListener('DOMContentLoaded', () => {
       const ul = document.createElement('ul');
       ul.classList.add('ul-pop');
       div1.appendChild(ul);
+      const btnPopDiv = document.createElement('div');
+      btnPopDiv.classList.add('btn-pop-div');
+      div1.appendChild(btnPopDiv);
       for (let i = 0; i < technologies.length; i += 1) {
         const li = document.createElement('li');
         li.classList.add('li-pop');
@@ -118,7 +121,7 @@ document.addEventListener('DOMContentLoaded', () => {
           if (i === 0) {
             const btnPop = document.createElement('button');
             btnPop.classList.add('btn-pop');
-            div1.appendChild(btnPop);
+            btnPopDiv.appendChild(btnPop);
             const aBtn = document.createElement('a');
             aBtn.href = data.liveLink;
             btnPop.appendChild(aBtn);
@@ -126,7 +129,7 @@ document.addEventListener('DOMContentLoaded', () => {
           } else if (i === 1) {
             const btnPop = document.createElement('button');
             btnPop.classList.add('btn-pop');
-            div1.appendChild(btnPop);
+            btnPopDiv.appendChild(btnPop);
             const aBtn = document.createElement('a');
             aBtn.href = data.sourceLink;
             btnPop.appendChild(aBtn);
