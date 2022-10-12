@@ -45,8 +45,8 @@ const infoArray = [
     featuredimg: featuredimg[1],
     description: description[1],
     technologies,
-    liveLink: liveLink[0],
-    sourceLink: sourceLink[0],
+    liveLink: liveLink[1],
+    sourceLink: sourceLink[1],
   },
   {
     id: 2,
@@ -54,8 +54,8 @@ const infoArray = [
     featuredimg: featuredimg[2],
     description: description[1],
     technologies,
-    liveLink: liveLink[0],
-    sourceLink: sourceLink[0],
+    liveLink: liveLink[1],
+    sourceLink: sourceLink[1],
   },
   {
     id: 3,
@@ -63,8 +63,8 @@ const infoArray = [
     featuredimg: featuredimg[3],
     description: description[1],
     technologies,
-    liveLink: liveLink[0],
-    sourceLink: sourceLink[0],
+    liveLink: liveLink[1],
+    sourceLink: sourceLink[1],
   },
 ];
 
