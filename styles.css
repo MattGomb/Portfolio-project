@@ -285,6 +285,10 @@ body {
   margin: 0 24px 0 0;
 }
 
+#box2b-list {
+  padding: 1rem 1rem 0 2rem;
+}
+
 .box2c {
   margin-top: 12px;
 }
@@ -689,6 +693,7 @@ ul:nth-child(4) {
 .popdiv2 {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
 }
 
 #text {
@@ -744,7 +749,7 @@ ul:nth-child(4) {
   }
 
   #div1-bgr {
-    background-image: url(images/desktop-div1-bg.png);
+    background-image: url(realproject-imgs/todolist-responsive.JPG);
   }
 
   #div2-bgr {
@@ -1036,7 +1041,9 @@ ul:nth-child(4) {
     margin: 0 2% 0 0;
     float: left;
     width: 60%;
-    height: 200px;
+    height: fit-content;
+    max-height: 140px;
+    overflow-y: scroll;
   }
 
   .ul-pop {
