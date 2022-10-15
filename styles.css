@@ -271,6 +271,8 @@ body {
   font-size: 12px;
   line-height: 16px;
   color: #3649fa;
+  transition: all 1s ease-in 0.5s;
+  cursor: context-menu;
 }
 
 .box2b {
@@ -576,6 +578,15 @@ ul:nth-child(4) {
   transition: 0.3s;
 }
 
+.btn-pop a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #396df2;
+}
+
 .overlay a:hover,
 .overlay a:focus {
   color: #f1f1f1;
@@ -696,27 +707,14 @@ ul:nth-child(4) {
   font-size: 1.125rem;
 }
 
-.list-langs1 {
-  transition: all 1s ease-in 0.5s;
-  cursor: context-menu;
-}
-
 .list-langs1:hover {
   background-color: #3649fa;
   border-radius: 10px;
   color: #ebffff;
 }
 
-.btn-pop a {
-  text-decoration: none;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  color: #396df2;
-}
-
 .btn-pop-div {
+  display: inline;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1053,13 +1051,9 @@ ul:nth-child(4) {
   filter: blur(10px);
 }
 
-.btn-pop-div {
-  display: inline;
-}
-
 @media screen and (min-width: 1080px) {
-  
-  .ul-pop, .btn-pop-div {
+  .ul-pop,
+  .btn-pop-div {
     width: 30%;
   }
 }
