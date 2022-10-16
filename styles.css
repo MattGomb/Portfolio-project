@@ -642,6 +642,7 @@ ul:nth-child(4) {
 .img-pop {
   width: 100%;
   border-radius: 0.5rem;
+  border: 1px solid rgb(143, 143, 143);
 }
 
 .para-pop {
@@ -1032,9 +1033,9 @@ ul:nth-child(4) {
   }
 
   .img-pop {
-    max-height: 70%;
-    max-width: 1422px;
-    margin-bottom: 5%;
+    max-width: 786px;
+    display: flex;
+    margin: 0 auto 2rem auto;
   }
 
   .para-pop {
@@ -1059,8 +1060,20 @@ ul:nth-child(4) {
 }
 
 @media screen and (min-width: 1080px) {
+  .btn-pop {
+    margin: 0.5rem 0 0 0;
+  }
+
   .ul-pop,
   .btn-pop-div {
     width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin: 0 0 1rem 0;
+  }
+
+  .para-pop {
+    margin-left: 3rem;
   }
 }

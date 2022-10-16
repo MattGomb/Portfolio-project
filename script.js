@@ -23,11 +23,11 @@ submit.addEventListener('click', (e) => {
   }
 });
 
-const pName = ['Awesomebooks', 'PLACEHOLDER 2', 'PLACEHOLDER 3', 'PLACEHOLDER 4'];
+const pName = ['Awesomebooks', 'To-do List', 'PLACEHOLDER 3', 'PLACEHOLDER 4'];
 const description = ['This is the restructured version of the famous awesome-books project! Here you can find JavaScript broken into modules, using import-export where necessary. Also updated the current time feature to use LUXON, which was a project requirement.',
-  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea"];
+  "This project is an example of the use of webpack utility and logic. The project itself is a to-do list, with multiple functionalities, such as adding and deleting tasks one by one, editing tasks, marking tasks as completed, and deleting all marked tasks with one click"];
 const technologies = ['Html', 'Css', 'Javascript'];
-const featuredimg = ['./realproject-imgs/awesomebooks-1.JPG', './images/div1-bgr.png', './images/div2-bgr.png', './images/div3-bgr.png'];
+const featuredimg = ['./realproject-imgs/awesomebooks-1.JPG', './realproject-imgs/todolist-card1.JPG', './images/div2-bgr.png', './images/div3-bgr.png'];
 const liveLink = ['https://mattgomb.github.io/awesome-books-ES6/', 'https://mattgomb.github.io/Portfolio-project/'];
 const sourceLink = ['https://github.com/MattGomb/awesome-books-ES6', 'https://github.com/MattGomb/portfolio-project'];
 const infoArray = [
