@@ -705,13 +705,13 @@ ul:nth-child(4) {
 
 .closesign {
   cursor: pointer;
-  padding: .5rem;
+  padding: 0.5rem;
   font-weight: bold;
 }
 
 .closesign:hover {
   font-size: 1.125rem;
-  padding-bottom: .45rem;
+  padding-bottom: 0.45rem;
 }
 
 .list-langs1:hover {
