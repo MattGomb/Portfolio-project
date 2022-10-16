@@ -1077,4 +1077,9 @@ ul:nth-child(4) {
     width: 60%;
     margin: 0 auto 0 auto;
   }
+
+  .para-pop {
+    padding-left: 2rem;
+
+  }
 }
