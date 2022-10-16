@@ -29,11 +29,11 @@ body {
 }
 
 #div1-bgr {
-  background-image: url(images/div1-bgr.png);
+  background-image: url(realproject-imgs/todolist-responsive.JPG);
 }
 
 #div2-bgr {
-  background-image: url(images/div2-bgr.png);
+  background-image: url(realproject-imgs/capstone-mobile.JPG);
 }
 
 #div3-bgr {
@@ -189,8 +189,6 @@ body {
 }
 
 .gen-title {
-  width: 295px;
-  height: 36px;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -283,6 +281,7 @@ body {
   color: #344563;
   gap: 12px;
   margin: 0 24px 0 0;
+  text-align: justify;
 }
 
 #box2b-list {
@@ -756,7 +755,7 @@ ul:nth-child(4) {
   }
 
   #div2-bgr {
-    background-image: url(images/desktop-div2-bg.png);
+    background-image: url(realproject-imgs/capstone-mobile.JPG);
   }
 
   #div3-bgr {
@@ -764,8 +763,6 @@ ul:nth-child(4) {
   }
 
   .desktop-title {
-    width: 295px;
-    height: 36px;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;

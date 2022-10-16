@@ -23,11 +23,12 @@ submit.addEventListener('click', (e) => {
   }
 });
 
-const pName = ['Awesomebooks', 'To-do List', 'PLACEHOLDER 3', 'PLACEHOLDER 4'];
-const description = ['This is the restructured version of the famous awesome-books project! Here you can find JavaScript broken into modules, using import-export where necessary. Also updated the current time feature to use LUXON, which was a project requirement.',
-  'This project is an example of the use of webpack utility and logic. The project itself is a to-do list, with multiple functionalities, such as adding and deleting tasks one by one, editing tasks, marking tasks as completed, and deleting all marked tasks with one click'];
+const pName = ['Awesomebooks', 'To-do List', '1st Capstone project', 'PLACEHOLDER 4'];
+const description = ["This is the restructured version of the famous awesome-books project! Here you can find JavaScript broken into modules, using import-export where necessary. Also updated the current time feature to use LUXON, which was a project requirement.",
+  "This project is an example of the use of webpack utility and logic. The project itself is a to-do list, with multiple functionalities, such as adding and deleting tasks one by one, editing tasks, marking tasks as completed, and deleting all marked tasks with one click.",
+  "The first capstone project, where i recreate the Hungarian SZIGET festival's website according to the project-requirement-guidelines. This project is a combination of all the tips and tricks we have learned up to that point."];
 const technologies = ['Html', 'Css', 'Javascript'];
-const featuredimg = ['./realproject-imgs/awesomebooks-1.JPG', './realproject-imgs/todolist-card1.JPG', './images/div2-bgr.png', './images/div3-bgr.png'];
+const featuredimg = ['./realproject-imgs/awesomebooks-1.JPG', './realproject-imgs/todolist-card1.JPG', './realproject-imgs/capstone-1.JPG', './images/div3-bgr.png'];
 const liveLink = ['https://mattgomb.github.io/awesome-books-ES6/', 'https://mattgomb.github.io/Portfolio-project/'];
 const sourceLink = ['https://github.com/MattGomb/awesome-books-ES6', 'https://github.com/MattGomb/portfolio-project'];
 const infoArray = [
@@ -53,7 +54,7 @@ const infoArray = [
     id: 2,
     name: pName[2],
     featuredimg: featuredimg[2],
-    description: description[1],
+    description: description[2],
     technologies,
     liveLink: liveLink[1],
     sourceLink: sourceLink[1],
