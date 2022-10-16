@@ -695,6 +695,7 @@ ul:nth-child(4) {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  margin-bottom: 1rem;
 }
 
 #text {
@@ -705,12 +706,13 @@ ul:nth-child(4) {
 
 .closesign {
   cursor: pointer;
-  padding: 0.5rem;
+  padding: .5rem;
   font-weight: bold;
 }
 
 .closesign:hover {
   font-size: 1.125rem;
+  padding-bottom: .45rem;
 }
 
 .list-langs1:hover {
