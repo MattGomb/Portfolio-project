@@ -1073,7 +1073,8 @@ ul:nth-child(4) {
     margin: 0 0 1rem 0;
   }
 
-  .para-pop {
-    margin-left: 3rem;
+  .popdiv1 {
+    width: 60%;
+    margin: 0 auto 0 auto;
   }
 }
