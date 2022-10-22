@@ -29,8 +29,8 @@ const description = ['This is the restructured version of the famous awesome-boo
   "The first capstone project, where i recreate the Hungarian SZIGET festival's website according to the project-requirement-guidelines. This project is a combination of all the tips and tricks we have learned up to that point."];
 const technologies = ['Html', 'Css', 'Javascript'];
 const featuredimg = ['./realproject-imgs/awesomebooks-1.JPG', './realproject-imgs/todolist-card1.JPG', './realproject-imgs/capstone-1.JPG', './images/div3-bgr.png'];
-const liveLink = ['https://mattgomb.github.io/awesome-books-ES6/', 'https://mattgomb.github.io/Portfolio-project/'];
-const sourceLink = ['https://github.com/MattGomb/awesome-books-ES6', 'https://github.com/MattGomb/portfolio-project'];
+const liveLink = ['https://mattgomb.github.io/awesome-books-ES6/', 'https://mattgomb.github.io/To-do-list-webpack-v2/dist/'];
+const sourceLink = ['https://github.com/MattGomb/awesome-books-ES6', 'https://github.com/MattGomb/To-do-list-webpack-v2'];
 const infoArray = [
   {
     id: 0,
