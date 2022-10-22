@@ -25,19 +25,19 @@ body {
 }
 
 #div0-bgr {
-  background-image: url(realproject-imgs/awesomebooks-responsive.JPG);
+  background-image: url('realproject-imgs/awesomebooks-responsive.JPG');
 }
 
 #div1-bgr {
-  background-image: url(realproject-imgs/todolist-responsive.JPG);
+  background-image: url('realproject-imgs/todolist-responsive.JPG');
 }
 
 #div2-bgr {
-  background-image: url(realproject-imgs/capstone-mobile.JPG);
+  background-image: url('realproject-imgs/capstone-mobile.JPG');
 }
 
 #div3-bgr {
-  background-image: url(images/div3-bgr.png);
+  background-image: url('realproject-imgs/Leaderboard-mobile.JPG');
 }
 
 #div0-bgr,
@@ -743,23 +743,23 @@ ul:nth-child(4) {
   }
 
   .main-body {
-    background-image: url(images/desktop-header-bg.png);
+    background-image: url('images/desktop-header-bg.png');
   }
 
   #div0-bgr {
-    background-image: url(realproject-imgs/awesomebooks-responsive.JPG);
+    background-image: url('realproject-imgs/awesomebooks-responsive.JPG');
   }
 
   #div1-bgr {
-    background-image: url(realproject-imgs/todolist-responsive.JPG);
+    background-image: url('realproject-imgs/todolist-responsive.JPG');
   }
 
   #div2-bgr {
-    background-image: url(realproject-imgs/capstone-mobile.JPG);
+    background-image: url('realproject-imgs/capstone-mobile.JPG');
   }
 
   #div3-bgr {
-    background-image: url(images/desktop-div3-bg.png);
+    background-image: url('realproject-imgs/Leaderboard-responsive.JPG');
   }
 
   .desktop-title {
@@ -875,7 +875,7 @@ ul:nth-child(4) {
   }
 
   .div0-bgr {
-    background-image: url(images/desktop-div0-bg.png);
+    background-image: url('images/desktop-div0-bg.png');
     max-width: 593.25px;
   }
 
