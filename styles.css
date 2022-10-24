@@ -89,13 +89,13 @@ body {
 }
 
 .hdr {
-  padding: 62px 24px 0 24px;
+  padding: 1rem 1rem;
   background-color: #fff;
   display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  position: fixed;
+  width: 96%;
+  border-radius: 0.5rem;
 }
 
 .logo {
@@ -346,6 +346,7 @@ body {
   color: #fff;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   background: #6070ff;
+  cursor: pointer;
 }
 
 .box2d-button:focus {
@@ -731,11 +732,8 @@ ul:nth-child(4) {
 @media screen and (min-width: 768px) {
   .hdr {
     position: fixed;
-    width: 80%;
     z-index: 999;
-    padding-top: 15px;
-    margin-top: 0;
-    top: 0;
+    width: 100%;
   }
 
   header {
