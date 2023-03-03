@@ -9,7 +9,7 @@
 
 - HTML and CSS
 
-## Live Demo (if available)
+## Live Demo
 
 - Check out the demo page here:
 
