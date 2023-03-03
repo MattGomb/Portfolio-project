@@ -28,9 +28,9 @@ const description = ['This is the restructured version of the famous awesome-boo
   'This project is an example of the use of webpack utility and logic. The project itself is a to-do list, with multiple functionalities, such as adding and deleting tasks one by one, editing tasks, marking tasks as completed, and deleting all marked tasks with one click.',
   "The first capstone project, where i recreate the Hungarian SZIGET festival's website according to the project-requirement-guidelines. This project is a combination of all the tips and tricks we have learned up to that point.",
   "A simple one-page leaderboard, where people can enter their name and score, and be displayed if they reached the top10. The name and score inputs have length restrictions so that the inputs can't break the display.",
-  "A simplified budget app, where users can register, add categories of spending, and add expenses to those categories. The app also displays the total amount of money spent in each category."];
+  'A simplified budget app, where users can register, add categories of spending, and add expenses to those categories. The app also displays the total amount of money spent in each category.'];
 const technologies = ['Html', 'Css', 'Javascript'];
-const technologies2 = ['Ruby on Rails', 'PostgreSQL', 'Bootstrap', 'render.com']
+const technologies2 = ['Ruby on Rails', 'PostgreSQL', 'Bootstrap', 'render.com'];
 const featuredimg = ['./realproject-imgs/awesomebooks-1.JPG', './realproject-imgs/todolist-card1.JPG', './realproject-imgs/capstone-1.JPG', './realproject-imgs/Leaderboard-desktop.JPG', './realproject-imgs/rorcap3.jpg'];
 const liveLink = ['https://mattgomb.github.io/awesome-books-ES6/', 'https://mattgomb.github.io/To-do-list-webpack-v2/dist/', 'https://mattgomb.github.io/Microverse-1st-Capstone-project/', 'https://mattgomb.github.io/Leaderboard/dist/', 'https://budgetappmatt.onrender.com/'];
 const sourceLink = ['https://github.com/MattGomb/awesome-books-ES6', 'https://github.com/MattGomb/To-do-list-webpack-v2', 'https://github.com/MattGomb/Microverse-1st-Capstone-project', 'https://github.com/MattGomb/Leaderboard', 'https://github.com/MattGomb/budget-app-rails'];
@@ -76,7 +76,7 @@ const infoArray = [
     name: pName[4],
     featuredimg: featuredimg[4],
     description: description[4],
-    technologies,
+    technologies2,
     liveLink: liveLink[4],
     sourceLink: sourceLink[4],
   },
